@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CBA Segura</title>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" 
+        content="IE=edge">
+        <meta name="viewport" content="width=device-
+        width, initial-scale=1.0">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<body>    
+    <h1 class="titulo">CBA Segura</h1>
+    <div>
+        <h2>Bienvenido a CBA</h2>
+        <p class= "texto">A continuacion se le presentara un formulario para completar con los datos del robo que ha sufrido</p>
+    </div>
+    <div>
+        <p> Zona
+            <select name="zona">
+                <option>Güemes</option>
+                <option>Centro</option>
+                <option>Nueva Córdoba</option>
+            </select>
+        </p>
+    </div>
+    <form>
+        <div> 
+            <label class="rotulo" for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" placeholder="Fecha" />
+            <br>
+        </div>
+        <br>
+        <div>
+            <label class="rotulo" for="descripción">Descripción</label>
+            <input type="text" maxlength="250" style="WIDTH: 400px; HEIGHT: 60px" id="descripción" name="zona"/>
+            <p type="text" >Describa el robo y cualquier dato que considere relevante. Cuenta con 250 caracteres</p>
+            <br>
+        </div>
+        <br>
+        <div>
+            <label class="rotulo" for="puntuacion">Nivel de Inseguridad</label>
+            <input type="range" min="1" max="5" id="puntuacion" name="puntuacion" placeholder="Puntuación" />
+        </div>
+    </form> 
+</body>
+</html>

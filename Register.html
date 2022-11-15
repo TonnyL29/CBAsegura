@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Registro</title>
+    <title>CBASegura-Registro</title>
 </head>
 <body>
     <div>
@@ -14,32 +14,32 @@
             <img src="media/map-gradiant-desktop.png" alt="">
             </div>
             <div class="img-right">
-                <img src="media/Component 1.png" alt="">
+                <img src="media/Component-1.png" alt="">
                 <div class="form">
-                    <form class="form-form" action=""><div class="right">
+                    <form class="form-form" action="">
                         <div>
                             <label>Nombre</label>
                         </div>
                         <div>
-                            <input type="text">
+                            <input type="text" id="nombre">
                         </div>
                         <div>
                             <label>Apellido</label>
                         </div>
                         <div>
-                            <input type="text">
+                            <input type="text" id="apellido">
                         </div>
                         <div>
                             <label>Correo electronico</label>
                         </div>
                         <div>
-                            <input type="email">
+                            <input type="email" id="email">
                         </div>
                         <div>
                             <label>Contraseña</label>
                         </div>
                         <div>
-                            <input type="password">
+                            <input type="password" id="pass">
                         </div>
                         <div>
                             <label for="ubicaciones">Ubicacion</label>
@@ -59,12 +59,17 @@
                             <label class="">Fecha de nacimiento</label>
                         </div>
                         <div>
-                            <input type="date" name="" id="">
+                            <input type="date" name="" id="fec_nac">
+                        </div>
+
+                        <div>
+                            <button onclick="insertar()" class="bnt-send"><a id="enviar" href="#">Registrate</a></button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>

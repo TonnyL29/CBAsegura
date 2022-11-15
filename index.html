@@ -1,50 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>CBA Segura</title>
     <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" 
-        content="IE=edge">
-        <meta name="viewport" content="width=device-
-        width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CBASegura</title>
 </head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css" />
-<body>    
-    <h1 class="titulo">CBA Segura</h1>
+<body>
+    <header>
+        <nav>
+            <div class="contenedor-nav">
+                <div class="contenedor--nav--p1">
+                    <a href="tel:911"><p>Emergencias</p></a>
+               </div>
+               <div class="contenedor--nav--p2">
+                <p>|</p>
+                </div>
+               <div class="contenedor--nav--p3">
+                    <a href="noticias.html"><p>Noticias</p></a>
+               </div>
+            </div>
+        </nav>
+    </header>
     <div>
-        <h2>Bienvenido a CBA</h2>
-        <p class= "texto">A continuacion se le presentara un formulario para completar con los datos del robo que ha sufrido</p>
+        <img class="img-map-index" src="./media/imagemap.png" alt="Mapa de cordoba">
     </div>
-    <div>
-        <p> Zona
-            <select name="zona">
-                <option>Güemes</option>
-                <option>Centro</option>
-                <option>Nueva Córdoba</option>
-            </select>
-        </p>
-    </div>
-    <form>
-        <div> 
-            <label class="rotulo" for="fecha">Fecha</label>
-            <input type="date" id="fecha" name="fecha" placeholder="Fecha" />
-            <br>
+    <footer class="footer-inedex">
+        <div class="contenedor--footer">
+            <div class="contenedor--footer--p"><p>CBASgura®</p></div>
+            <div class="red-s-fb"><a href="https://facebook.com"><img src="media/facebook.png" alt=""></a></div>
+            <div class="red-s-ig"><a href="https://instagram.com"><img src="media/instagram.png" alt=""></a></div>
         </div>
-        <br>
-        <div>
-            <label class="rotulo" for="descripción">Descripción</label>
-            <input type="text" maxlength="250" style="WIDTH: 400px; HEIGHT: 60px" id="descripción" name="zona"/>
-            <p type="text" >Describa el robo y cualquier dato que considere relevante. Cuenta con 250 caracteres</p>
-            <br>
-        </div>
-        <br>
-        <div>
-            <label class="rotulo" for="puntuacion">Nivel de Inseguridad</label>
-            <input type="range" min="1" max="5" id="puntuacion" name="puntuacion" placeholder="Puntuación" />
-        </div>
-    </form> 
+    </footer>
 </body>
 </html>
