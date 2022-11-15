@@ -1,0 +1,72 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body--add_not{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.conteiner{
+    position:absolute;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.conteiner--img{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen{
+    margin-top: -60%;
+    width: 89%;
+    position: absolute;
+}
+.titulo {
+    color: rgba(223,124,103);
+
+}
+.zona{
+    font-size: 20px;
+    font-weight: bold;
+}
+.rotulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.descripcion{
+    font-size: 10px;
+}
+.input{
+    font-size: 15px;
+}
+.inseg1{
+    color: rgb(25, 209, 10);
+    background-color: rgb(25, 209, 10);
+    font-size: 15px;
+}
+.inseg2{
+    color: rgb(173, 241, 60 );
+    background-color: rgb(173, 241, 60 );
+    font-size: 15px;
+}
+.inseg3{
+    color: rgb(229, 241, 60);
+    background-color: rgb(229, 241, 60);
+    font-size: 15px;
+}
+.inseg4{
+    color: rgb(240, 169, 45);
+    background-color: rgb(240, 169, 45);
+    font-size: 15px;
+}
+.inseg5{
+    color: rgb(231, 37, 19);
+    background-color:  rgb(231, 37, 19);
+    font-size: 15px;
+}

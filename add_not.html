@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CBA Segura</title>
+    <link rel="stylesheet" href="style_2.css" />
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" 
+        content="IE=edge">
+        <meta name="viewport" content="width=device-
+        width, initial-scale=1.0">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<body class="body--add_not">
+    <div class="conteiner--img">
+        <img src="./media/Component-1.png" alt="imagen" class="imagen">
+    </div>
+        <div class="conteiner">
+            <h1 class="titulo">CBA Segura</h1>
+            <p class= "texto">A continuacion se le presentara un formulario para completar con los datos del robo que ha sufrido</p>
+                <p class= "zona">Zona
+                    <select name="zona">
+                        <option></option>
+                        <option class= "input">Güemes</option>                            <option class= "input">Centro</option>
+                        <option class= "input">Nueva Córdoba</option>
+                        </select>
+                </p>
+            <div> 
+                <label class="rotulo" for="fecha">Fecha</label>
+                    <input class= "input" type="date" id="fecha" name="fecha" placeholder="Fecha" />
+
+                </div>
+
+                <div>
+                    <label class="rotulo" for="descripción">Descripción</label>
+                    <input class= "input" type="text" maxlength="250" style="WIDTH: 400px; HEIGHT: 60px" id="descripción" name="zona"/>
+                    <p class="descripcion"type="text" >Describa el robo y cualquier dato que considere relevante. Cuenta con 250 caracteres</p>
+
+                </div>
+                <div>
+                    <label class="rotulo" for="puntuacion">Nivel de Inseguridad</label>
+                    <select name="Inseguridad">
+                        <option></option>
+                        <option class="inseg1">1</option> 
+                        <option class="inseg2">2</option>
+                        <option class="inseg3">3</option>
+                        <option class="inseg4">4</option>
+                        <option class="inseg5">5</option>
+                    </select>
+                </div>
+            </form>
+        </div> 
+</body>
+</html>
