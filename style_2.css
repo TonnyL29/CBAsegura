@@ -20,9 +20,10 @@
 .conteiner--img{
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 
-.imagen{
+/* .imagen{
     margin-top: -60%;
     width: 89%;
     position: absolute;
@@ -69,4 +70,18 @@
     color: rgb(231, 37, 19);
     background-color:  rgb(231, 37, 19);
     font-size: 15px;
+}
+
+.cont-fecha{
+    display: flex;
+    flex-direction: row;
+} */
+
+.cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.cont *{
+    margin-right: 10px;
 }
