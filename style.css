@@ -149,7 +149,7 @@ color: #0C1236;
 
 .contenedor-nav{
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     flex-direction: row;
     justify-content: space-around;
     font-size: 2em;
